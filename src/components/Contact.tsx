@@ -1,6 +1,6 @@
 import { useState, FormEvent } from "react";
 import { FadeInSection } from "./FadeInSection";
-import { Linkedin, Mail, Send } from "lucide-react";
+import { Linkedin, Mail, Send, Github } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -27,7 +27,7 @@ const Contact = () => {
 
         <div className="grid md:grid-cols-2 gap-10">
           <FadeInSection delay={0.1}>
-            <div className="space-y-6">
+            <div className="flex flex-col gap-4">
               <a
                 href="https://www.linkedin.com/in/lokesh-r-g-6b25bb25a"
                 target="_blank"
@@ -53,6 +53,21 @@ const Contact = () => {
                 <div>
                   <p className="font-display font-semibold text-foreground">Email</p>
                   <p className="text-sm text-muted-foreground">lokeshca2004@gmail.com</p>
+                </div>
+              </a>
+
+              <a
+                href="https://github.com/lokesh-R-G"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-4 glass rounded-xl p-5 transition-all duration-300 hover:shadow-elevated hover:-translate-y-0.5"
+              >
+                <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:scale-110">
+                  <Github className="w-5 h-5 text-primary-foreground" />
+                </div>
+                <div>
+                  <p className="font-display font-semibold text-foreground">GitHub</p>
+                  <p className="text-sm text-muted-foreground">View my repositories</p>
                 </div>
               </a>
             </div>
