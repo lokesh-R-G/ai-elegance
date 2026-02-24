@@ -14,7 +14,7 @@ const Resume = () => {
             Download my resume to learn more about my experience and qualifications.
           </p>
           <a
-            href="#"
+            href="https://drive.google.com/file/d/1oQLayxBQC4GUlzPDWB9NEtvx6buMelUk/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full gradient-bg text-primary-foreground font-semibold tracking-wide transition-all duration-300 hover:shadow-elevated hover:scale-105"

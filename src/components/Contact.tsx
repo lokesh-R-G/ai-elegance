@@ -7,7 +7,7 @@ const Contact = () => {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    const mailto = `mailto:your.email@gmail.com?subject=Portfolio Contact from ${formData.name}&body=${encodeURIComponent(formData.message)}%0A%0AFrom: ${formData.email}`;
+    const mailto = `mailto:lokeshca2004@gmail.com?subject=Portfolio Contact from ${formData.name}&body=${encodeURIComponent(formData.message)}%0A%0AFrom: ${formData.email}`;
     window.open(mailto);
   };
 
@@ -29,7 +29,7 @@ const Contact = () => {
           <FadeInSection delay={0.1}>
             <div className="space-y-6">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/lokesh-r-g-6b25bb25a"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 glass rounded-xl p-5 transition-all duration-300 hover:shadow-elevated hover:-translate-y-0.5"
@@ -44,7 +44,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:your.email@gmail.com"
+                href="mailto:lokeshca2004@gmail.com"
                 className="group flex items-center gap-4 glass rounded-xl p-5 transition-all duration-300 hover:shadow-elevated hover:-translate-y-0.5"
               >
                 <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:scale-110">
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-display font-semibold text-foreground">Email</p>
-                  <p className="text-sm text-muted-foreground">your.email@gmail.com</p>
+                  <p className="text-sm text-muted-foreground">lokeshca2004@gmail.com</p>
                 </div>
               </a>
             </div>

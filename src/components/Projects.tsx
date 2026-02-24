@@ -1,5 +1,5 @@
 import { FadeInSection } from "./FadeInSection";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
@@ -10,6 +10,7 @@ const projects = [
       "A healthcare intelligence platform designed to store and analyze region-wise patient data to detect early signs of disease outbreaks.",
     tags: ["Patient Records", "Outbreak Screening", "Health Analytics", "Early Warnings"],
     focus: "Healthcare data intelligence and outbreak analytics",
+    github: "https://github.com/lokesh-R-G/health-compass.git",
   },
   {
     emoji: "👁",
@@ -28,6 +29,7 @@ const projects = [
       "A predictive environmental analytics system integrating LSTM-based weather models and geospatial flood data to classify flood risk dynamically.",
     tags: ["LSTM Models", "Flood Clustering", "Risk Classification", "Heatmap Viz"],
     focus: "Environmental AI & geospatial analytics",
+    github: "https://github.com/lokesh-R-G/chennai-floodguard.git",
   },
   {
     emoji: "🌱",
@@ -94,6 +96,17 @@ const Projects = () => {
                   <ExternalLink className="w-3 h-3" />
                   {project.focus}
                 </p>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary hover:bg-secondary/80 text-secondary-foreground text-sm font-medium transition-all duration-300 hover:scale-105"
+                  >
+                    <Github className="w-4 h-4" />
+                    View Repository
+                  </a>
+                )}
               </div>
             </FadeInSection>
           ))}
