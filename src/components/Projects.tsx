@@ -39,6 +39,7 @@ const projects = [
       "A smart agriculture system designed to improve crop productivity using environmental data monitoring and decision-support recommendations.",
     tags: ["Crop Monitoring", "Environmental Data", "Decision Support", "Rural Impact"],
     focus: "AI for agriculture & rural impact",
+    github: "https://github.com/lokesh-R-G/agrosmart-pro.git",
   },
   {
     emoji: "🖥",
