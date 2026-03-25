@@ -50,6 +50,36 @@ const projects = [
     tags: ["Network Comms", "Screen Streaming", "Low Latency", "Linux"],
     focus: "Network communication & streaming optimization",
   },
+  {
+    emoji: "🛟",
+    title: "Ocean Skimmer – Ocean Debris Tracking",
+    subtitle: "Mar 2026 | Code of Thrones Hackathon",
+    description:
+      "An AI system to detect ocean debris using satellite imagery with image processing and clustering.",
+    tags: ["Python", "OpenCV", "GIS"],
+    focus: "AI-driven ocean debris detection from satellite data",
+    github: "https://github.com/lokesh-R-G/ocean-watch-ai",
+  },
+  {
+    emoji: "🧠",
+    title: "ECHO Digital Twin",
+    subtitle: "RAG-Based Human-Like Tone Generation",
+    description:
+      "A RAG-based application that generates text in the user's tone for human-like response generation.",
+    tags: ["LLMs", "RAG", "NLP"],
+    focus: "Personalized response generation with retrieval-augmented AI",
+    github: "https://github.com/lokesh-R-G/ECHO_Digital_Twin",
+  },
+  {
+    emoji: "📚",
+    title: "RE-BOOK – Community Book Exchange Platform",
+    subtitle: "Community-Driven Book Exchange",
+    description:
+      "A platform that enables users to exchange books within a community.",
+    tags: ["Web Development Stack"],
+    focus: "Community platform for peer-to-peer book sharing",
+    github: "https://github.com/sivsubramanian/RE-BOOK-1",
+  },
 ];
 
 const Projects = () => {
