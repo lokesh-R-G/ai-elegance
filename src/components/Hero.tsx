@@ -83,18 +83,7 @@ const Hero = () => {
           </motion.div>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2, duration: 1 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2"
-        >
-          <a href="#projects" className="text-muted-foreground hover:text-primary transition-colors">
-            <motion.div animate={{ y: [0, 8, 0] }} transition={{ duration: 2, repeat: Infinity }}>
-              <ArrowDown className="w-5 h-5" />
-            </motion.div>
-          </a>
-        </motion.div>
+        {/* Centered down arrow removed per request */}
       </div>
     </section>
   );
